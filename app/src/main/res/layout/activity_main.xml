@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hyman="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <com.gb.progressbar.view.ProgessBarone
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:progress="50"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content" />
+
+    <com.gb.progressbar.view.ProgessBarone
+        android:id="@+id/mypro"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        hyman:text_color="#00ff0f"
+        hyman:progess_reach_color="#f0f000"
+        hyman:progess_unreach_color="#0f0f0f"
+        hyman:text_size="15sp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content" />
+
+
+    <com.gb.progressbar.view.RoundProgessBar
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:progress="50"
+        android:layout_margin="20dp"
+        hyman:text_size="20px"
+        hyman:raduio="50dp"
+        hyman:progess_unreach_color="#ff00ff"
+        hyman:progess_reach_color="#00ffff"
+        hyman:text_color="#000000"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+</ScrollView>

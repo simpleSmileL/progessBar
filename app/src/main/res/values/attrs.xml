@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <attr name="progess_unreach_color" format="color"/>
+   <attr name="progess_unreach_hight" format="dimension"/>
+  <attr name="progess_reach_color" format="color"/>
+  <attr name="progess_reach_hight" format="dimension"/>
+  <attr name="text_color" format="color"/>
+  <attr name="text_size" format="dimension"/>
+  <attr name="text_offset" format="dimension"/>
+  <declare-styleable name="ProgessBarone">
+    <attr name="progess_unreach_color"/>
+    <attr name="progess_unreach_hight" />
+    <attr name="progess_reach_color" />
+    <attr name="progess_reach_hight" />
+    <attr name="text_color"/>
+    <attr name="text_size" />
+    <attr name="text_offset" />
+  </declare-styleable>
+
+  <declare-styleable name="RoundProgessBar">
+
+    <attr name="raduio"  format="dimension"/>
+  </declare-styleable>
+
+</resources>
